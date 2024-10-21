@@ -38,73 +38,74 @@ Bank Management System is a Java-based console application developed by a facult
     File Handling – Used for reading and writing data (simulating a database)
     VSCode – Development environment
 
+<h2>📂 Project Structure</h2>
 
-Bank-Management-System/
-│
-├── .vscode/                  # VSCode settings
-│   └── settings.json         
-│
-├── Files/                    # Data files for storing system data  
-│   ├── BANK_FILE.txt         # Stores client banking data  
-│   ├── LOGIN_FILE.txt        # Logs all login details  
-│   ├── TRANSACTIONS_FILE.txt # Logs all transactions  
-│   └── Logo.txt              # ASCII logo for the system
-│
-├── bin/                      # Compiled Java classes
-│
-├── src/                      # Source code files  
-│   ├── CORE/                 # Core logic classes  
-│   │   ├── Bank.java  
-│   │   ├── Client.java  
-│   │   ├── Employee.java  
-│   │   ├── Person.java  
-│   │   ├── clsAccount.java  
-│   │   ├── clsDeposit.java  
-│   │   ├── clsTransfer.java  
-│   │   └── clsWithdraw.java  
-│   │
-│   ├── FK_Lib/               # Utility classes  
-│   │   ├── clsGlobal.java  
-│   │   ├── clsInput.java  
-│   │   └── clsUtil.java  
-│   │
-│   ├── Screens/              # Screens for user interaction  
-│   │   ├── ClientScreens/  
-│   │   │   ├── clsAccountsListScreen.java  
-│   │   │   ├── clsAddClientScreen.java  
-│   │   │   ├── clsClientsListScreen.java  
-│   │   │   ├── clsDeleteClientScreen.java  
-│   │   │   ├── clsFindClientScreen.java  
-│   │   │   └── clsUpdateClientScreen.java  
-│   │   │
-│   │   ├── EmployeeScreens/  
-│   │   │   ├── clsAddEmployeeScreen.java  
-│   │   │   ├── clsDeleteEmployeeScreen.java  
-│   │   │   ├── clsEmployeeAccountScreen.java  
-│   │   │   ├── clsEmployeesListScreen.java  
-│   │   │   ├── clsFindEmployeeScreen.java  
-│   │   │   └── clsUpdateEmployeeScreen.java  
-│   │   │
-│   │   ├── MainScreens/  
-│   │   │   ├── Admin_Main_Menu_Screen.java  
-│   │   │   ├── Client_Main_Menu_Screen.java  
-│   │   │   ├── Employee_Main_Menu_Screen.java  
-│   │   │   ├── Login_History_Screen.java  
-│   │   │   ├── Login_Screen.java  
-│   │   │   ├── Main_Screen.java  
-│   │   │   ├── Manage_Employees_Menu_Screen.java  
-│   │   │   └── Transactions_Main_Menu_Screen.java  
-│   │
-│   │   ├── Transactions/     # Screens for transactions  
-│   │   │   ├── clsDepositScreen.java  
-│   │   │   ├── clsTransactionsHistoryScreen.java  
-│   │   │   ├── clsTransferScreen.java  
-│   │   │   └── clsWithdrawScreen.java  
-│   │
-│   └── App.java              # Entry point of the application  
-│
-└── README.md                 # Documentation
-
+    Bank-Management-System/
+        │
+        ├── .vscode/                  # VSCode settings
+        │   └── settings.json         
+        │
+        ├── Files/                    # Data files for storing system data  
+        │   ├── BANK_FILE.txt         # Stores client banking data  
+        │   ├── LOGIN_FILE.txt        # Logs all login details  
+        │   ├── TRANSACTIONS_FILE.txt # Logs all transactions  
+        │   └── Logo.txt              # ASCII logo for the system
+        │
+        ├── bin/                      # Compiled Java classes
+        │
+        ├── src/                      # Source code files  
+        │   ├── CORE/                 # Core logic classes  
+        │   │   ├── Bank.java  
+        │   │   ├── Client.java  
+        │   │   ├── Employee.java  
+        │   │   ├── Person.java  
+        │   │   ├── clsAccount.java  
+        │   │   ├── clsDeposit.java  
+        │   │   ├── clsTransfer.java  
+        │   │   └── clsWithdraw.java  
+        │   │
+        │   ├── FK_Lib/               # Utility classes  
+        │   │   ├── clsGlobal.java  
+        │   │   ├── clsInput.java  
+        │   │   └── clsUtil.java  
+        │   │
+        │   ├── Screens/              # Screens for user interaction  
+        │   │   ├── ClientScreens/  
+        │   │   │   ├── clsAccountsListScreen.java  
+        │   │   │   ├── clsAddClientScreen.java  
+        │   │   │   ├── clsClientsListScreen.java  
+        │   │   │   ├── clsDeleteClientScreen.java  
+        │   │   │   ├── clsFindClientScreen.java  
+        │   │   │   └── clsUpdateClientScreen.java  
+        │   │   │
+        │   │   ├── EmployeeScreens/  
+        │   │   │   ├── clsAddEmployeeScreen.java  
+        │   │   │   ├── clsDeleteEmployeeScreen.java  
+        │   │   │   ├── clsEmployeeAccountScreen.java  
+        │   │   │   ├── clsEmployeesListScreen.java  
+        │   │   │   ├── clsFindEmployeeScreen.java  
+        │   │   │   └── clsUpdateEmployeeScreen.java  
+        │   │   │
+        │   │   ├── MainScreens/  
+        │   │   │   ├── Admin_Main_Menu_Screen.java  
+        │   │   │   ├── Client_Main_Menu_Screen.java  
+        │   │   │   ├── Employee_Main_Menu_Screen.java  
+        │   │   │   ├── Login_History_Screen.java  
+        │   │   │   ├── Login_Screen.java  
+        │   │   │   ├── Main_Screen.java  
+        │   │   │   ├── Manage_Employees_Menu_Screen.java  
+        │   │   │   └── Transactions_Main_Menu_Screen.java  
+        │   │
+        │   │   ├── Transactions/     # Screens for transactions  
+        │   │   │   ├── clsDepositScreen.java  
+        │   │   │   ├── clsTransactionsHistoryScreen.java  
+        │   │   │   ├── clsTransferScreen.java  
+        │   │   │   └── clsWithdrawScreen.java  
+        │   │
+        │   └── App.java              # Entry point of the application  
+        │
+        └── README.md                 # Documentation
+    
 
 
 <h2>🚀 Getting Started</h2>
@@ -117,7 +118,7 @@ Installation
 
     Clone the repository:
     git clone https://github.com/your-username/Bank-Management-System.git
-cd Bank-Management-System
+    cd Bank-Management-System
 
 Open the project in VSCode or your preferred IDE.
 
